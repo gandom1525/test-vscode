@@ -1,0 +1,43 @@
+repository
+
+git config --global user.name "gandom"
+git config --global user.email "gandommaryam51@gmail.com"
+git init  = نصب گیت    
+
+git add . یا "index.html"
+git status = وضعیت تغیرات
+git commit -m "first one"
+git commit -am "first one"= add+commit
+
+git log = کامیت رو نشون میده
+git log --oneline = یه خط رو برمی گردونه
+git reset b1b08214  = تغیرات درون فایل رو برمی گردونه   
+git reset --hard = فایل های حذف شده رو بر می گردونه
+git push = تغیرات میره رو گیت هاب 
+
+git branch -l = نشون میده چنتا داریم و رو کدومیم 
+git branch about-page = ساخت برنچ
+git checkout about-page = رفتن رو برنچ دیگه
+git checkout -b contact-page = ساخت برنچ+رفتن رو برنچ
+git merge about-page = اضافه میکنه این برنچو به برنچی که توش هستیم
+git log --graph --all = ریشه هاش
+git branch -ِِD about-page = پاک کردن برنچ
+
+.gitignore
+git rm text.txt --cached = از ریپتروزیتی هم حدف میکنه
+*.txt
+maryam.txt
+/images/phon.png
+/images/phon[1-3].png
+/images/banerss/*.png
+/images/banerss/m.*
+
+git remote add origin https://github.com/gandom1525/test1.git = وصل کردن گیت و گیت هاب که خودش در گیت هاب میده
+git branch -M main  //
+git push -u origin main //
+maryamgandom1525  = رمز گیت هاب 
+https://github.com/gandom1525/test1 = ادرس من
+
+git clone https://github.com/gandom1525/test1.git = دانلود پروزه یکی دیگه 
+git pull
+git fetch
