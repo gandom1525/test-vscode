@@ -1,0 +1,10 @@
+ctrl+c=copy
+ctrl+shift+esc=task manager
+
+windos+v=clipboard
+windos+k=television
+windos+;=emoji
+windos+x,uu=of
+windos+v=settings
+windos+l=lock
+
